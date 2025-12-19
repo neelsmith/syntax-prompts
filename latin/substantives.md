@@ -1,1 +1,1 @@
-For every adjective form, check if it has an explicit antecedent (either noun or pronoun).
+For every adjective form that is *not* a participle, check if it has an explicit antecedent (either noun or pronoun). If it does, add the ID and Token for the antecedent to the "Link1" column of the adjective, and add the word "adjective" to the "Relation1" column of the adjective.

@@ -1,0 +1,5 @@
+For every finite (conjugated) verb form, add the following to the "Notes" column: if it is a primary (main) verb, add "primary", if it is a secondary (subordinate) verb, add "secondary". 
+
+If a primary verb is introduced by a coordinating conjunction, add the ID and Token for that conjunction to the "Link1" column of the primary verb, and add the word "main verb" to the "Relation1" column of the primary verb. For each secondary verb, add the ID and token of the subordinating word (relative pronoun, subordinate conjunction, etc.) to the "Link1" column of the secondary verb, and add the word "subordinate verb" to "Relation2" of the secondary verb.
+
+For every finite verb form, if it has an explicit subject (noun or pronoun), then in the "Link1" column of that noun or pronoun, add the ID and Token for the verb, and add the word "subject" to the "Relation1" column. If it has an explicit object then in the "Link1" column of that noun or pronoun, add the ID and Token for the verb, and add the string "subject" + the case of the object to the "Relation1" column.
