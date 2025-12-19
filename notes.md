@@ -4,4 +4,5 @@
 
 Catch relative pronouns before substantives
 
-Test understand verbs
+Test understood/implied verbs
+
