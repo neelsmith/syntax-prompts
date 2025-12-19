@@ -1,8 +1,8 @@
-I want to prepare a delimited-text table identifying verbal constructions in a passage of Latin. The table will use the pipe character "|" as the divider, with the following header: "VUID|Token|Depth|Construction|Notes".
+I want to prepare a delimited-text table identifying verbal constructions in a passage of Latin. The table will use the pipe character "|" as the divider, with the following header: "VUID|Token|VerbType|Depth|Construction|Notes".
 
 The table should include a row for every finite verb form, every participle, and every infinitive used in indirect statement. It should omit infinitives used as nouns (e.g., in "Legere bonum est", omit "Legere" since it is simply the subject of the verb "est"). Treat complementary infinitives as part of a single verbal expression (e.g., in "intellegere non possum"), treat the two words "intellegere possum" as the verbal expression).
 
-In each row, assign a unique numeric identifier to the "VUID" column, and list the form of the verb in the "Token" column.
+In each row, assign a unique numeric identifier to the "VUID" column, and list the form of the verb in the "Token" column. For "VerbType", use one of these values: "transitive active" for transitive verbs in active voice (e.g., "vidi"), "transivite passive" for transitive verbs in passive voice (e.g., "interfectus est"), "deponent" for deponent verbs (e.g., "sequitur"), "intransitive" for intransitive verbs (e.g., "venit"), and "linking" for linking verbs (e.g., "est" in the sentence "rosa pulchra est").
 
 For finite verbs, if it is a primary (main) verb, add "primary verb" to the "Construction" column; if it is a secondary (subordinate) verb, add "secondary verb"; if it is a participle, add "participle"; if it is an infinitive in indirect statement, add "indirect statement".
 
