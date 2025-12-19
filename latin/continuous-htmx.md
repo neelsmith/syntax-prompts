@@ -1,0 +1,1 @@
+Use the table of tokens to create an HTML display of the tokens as a continuous text with tokens separated by a space. Find the VUID value for each token, and highlight the token using the Color value of the verbal unit with the same VUID.
