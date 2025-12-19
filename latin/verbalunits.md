@@ -1,8 +1,4 @@
-I want to prepare a delimited-text table using the pipe character "|" as the divider summarizing syntactic features of this passage of Latin. The table should have 7 columns labelled:
-ID|Token|Link1|Relation1|Link2|Relation2|Notes
-Begin by populating the `ID` and `Token` columns as follows. Separate the text into word tokens, treating enclitics as separate word tokens, but treating compound verb forms such as the perfect passive as a single token; ignore punctuation, and number the resulting list sequentially. E.g. given the phrase "arma virumque cano, Troiae" you would add 5 rows numbered 1-5 for the tokens "arma", "virum", "que",  "cano" and "Troiae" (ignoring "," and separating "virumque" into 2 tokens); given "Caesar interfectus est" you add 2 rows for the tokens "Caesar" and "interfectus est".
-Next, for every finite (conjugated) verb form, add the following to the "Notes" column: if it is a primary (main) verb, add "primary", if it is a secondary (subordinate) verb, add "secondary". 
-
+For every finite (conjugated) verb form, add the following to the "Notes" column: if it is a primary (main) verb, add "primary", if it is a secondary (subordinate) verb, add "secondary". 
 
 If a primary verb is introduced by a coordinating conjunction, add the ID and Token for that conjunction to the "Link1" column of the primary verb, and add the word "main verb" to the "Relation1" column of the primary verb. For each secondary verb, add the ID and token of the subordinating word (relative pronoun, subordinate conjunction, etc.) to the "Link1" column of the secondary verb, and add the word "subordinate verb" to "Relation2" of the secondary verb.
 

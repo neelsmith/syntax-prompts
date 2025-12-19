@@ -1,0 +1,1 @@
+For every adjective form, check if it has an explicit antecedent (either noun or pronoun).
