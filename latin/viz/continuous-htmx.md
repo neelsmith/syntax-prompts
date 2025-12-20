@@ -1,1 +1,1 @@
-Use the table of tokens to create an HTML display of the tokens as a continuous text with tokens separated by a space. IF the VUID value of the token is not empty,  highlight the token using the Color value of the verbal unit with the same VUID.
+Use the table of tokens to create an HTML display of the tokens as a continuous text with tokens separated by a space. If the VUID value of the token is not empty,  highlight the token using the Color value of the verbal unit with the same VUID.
