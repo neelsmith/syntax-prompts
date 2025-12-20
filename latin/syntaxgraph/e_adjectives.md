@@ -1,0 +1,1 @@
+For all adjectives with nonempty values for "Link1", make the "VUID" the same as the "VUID" of the node in "Link1".

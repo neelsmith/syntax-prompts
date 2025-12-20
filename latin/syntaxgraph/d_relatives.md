@@ -1,0 +1,1 @@
+For each relative pronoun, if it has an explicit antecedent, add the ID and Token for the antecedent to the "Link2" column of the adjective, and add the word "antecedent" to the "Relation2" column of the adjective.
